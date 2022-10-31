@@ -1,0 +1,91 @@
+
+<!DOCTYPE HTML>
+<html>
+
+   <body>
+  
+      <script>
+         
+         var balance1=30000;
+         var balance2=50000;
+         var withdraw;
+         var deposit;
+         var i=0;
+           while(i<4){
+          var accno=prompt("ENTER  ACCOUNT NUMBER:");
+          if(accno=="67890" || accno=="09876" )
+          {
+          var password=prompt("ENTER PASSWORD");
+           if(password=="456" && accno=="67890" || password=="654" && accno=="09876")
+          {
+          alert(" login to your  account");
+          do{
+            alert("Choose your option:\n 1.CheckBalance \n2 .Withdraw \n 3.Deposit \n 4.Exit");
+           var a=prompt("Enter your value:");
+           switch(a){
+          case "1":
+          if(accno=="67890"&& password=="456")
+          {
+          alert("we are checking the balance: "+balance1);
+           }
+          else{
+          alert("Balance is "+balance2);
+          }
+         break;
+         case "2":
+         if(accno=="67890"&& password=="456")
+                                           {
+             withdraw=prompt("Enter money to withdraw:");
+             if(withdraw>balance1){
+              alert("Insufficient Balance");
+             }
+             else{
+             balance1-=parseInt(withdraw);
+         alert("Money in your account is:"+balance1);
+         }
+         }
+         else{
+        withdraw=prompt("Enter money to withdraw:");
+             if(withdraw>balance2){
+              alert("Insufficient Balance");
+             }
+             else{
+             balance2-=parseInt(withdraw);
+         alert("Money  in your account is:"+balance2);
+         }
+         }
+         break;
+         case "3":
+         if(accno=="67890"&& password=="456")
+                                           {
+             deposit=prompt(" Depositing the money:")
+             balance1+=parseInt(deposit);
+         alert(" Amount in Your Account is:"+balance1);
+         }
+         else{
+         deposit=prompt("Depositing the money :")
+             balance2+=parseInt(deposit);
+         alert(" Amount in Your Account is:"+balance2);
+         }
+         break;
+         case "4":
+         alert("log out");
+          i++;                                     
+         }
+          }while(a!=4);                 
+           }
+           else{
+           alert("provide valid password");
+           }
+           }
+           else
+           {
+           alert("provide valid accnumber");
+           }
+         }
+         
+      </script>        
+   </body>
+</html>
+
+
