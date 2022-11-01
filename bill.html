@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+var cart=[];
+var sum=0;
+
+ var products=[
+ {product:"sarees",price:10000},
+ {product:"watch",price:1500},
+ {product:"frocks",price:1700},
+ {product:"shoes",price:2000},
+ {product:"short tops",price:600},
+ {product:"rings",price:900 },
+ {product:"plazaas",price:800},
+ {product:"crop tops",price:600,}]
+
+
+ var count = 0;
+ while(bill != "end"){
+
+ var bill=prompt("enter your products to add\n1.sarees:10000\n2.watch:1500\n3.Frocks:1700\n4.shoes:2000\n5.short tops:600\n6.rings:900\n7.flazaas:800\n8.crop tops:700");
+
+     if(bill!="end")
+           {
+           cart.push(`\n ${products[parseInt(bill-1)].product} - ${products[parseInt(bill-1)].price}`);
+           console.log(cart)
+             sum+=parseInt(products[count].price );
+       }
+        count ++;
+ }
+
+ if(sum>2000)
+ {
+    if(products.length>=5){
+    alert(cart)
+    alert("Total ="+sum);
+  alert("you got 20% discount");
+ alert((sum*80)/100);
+ }
+
+  else{
+  alert(cart)
+console.log("you got 10% discount");
+console.log((sum*90)/100);
+  }}
+ else{
+ alert(cart)
+ console.log("No discount");
+console.log(sum);
+ }
+
+
+</script>
+</body>
+</html>
