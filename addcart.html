@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+
+ var sum=0;
+ var addcart=[];
+
+
+ var products=[{prodname:"samsung",price:"25000"},{prodname:"apple",price:"50000"},
+                {prodname:"xiomi",price:"5000"},{prodname:"realme",price:"25000"},{prodname:"vivo",price:"15000"}];
+
+ for(i=0;i<products.length;i++)
+ {
+ console.log(`${i+1}.${products[i].prodname}-${products[i].price}`);
+
+ }
+
+ for( i=0;i<2;i++)
+ {
+ var item=parseInt(prompt("Enter value"));
+ addcart.push(products[item]);
+ sum+=parseInt(products[i].price);
+}
+ console.log(addcart);
+console.log(sum);
+
+
+ if(sum>20000)
+{
+ if(products.length+1>=5){
+ console.log("you will get 20% discount"+(sum-(sum*20)/100));
+ }
+ else if(list.length+1<5){
+ console.log("you will get 10% discount"+(sum-(sum*10)/100));
+ }
+ }
+ else{
+ console.log("No discount");
+ }
+</script>
+</body>
+
