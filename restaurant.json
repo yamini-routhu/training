@@ -1,0 +1,977 @@
+{
+  "items": [
+    {
+      "name": "idly",
+      "price": "20",
+      "id": 1
+    },
+    {
+      "name": "Dosa",
+      "price": "40",
+      "id": 2
+    },
+    {
+      "name": "puri",
+      "price": "60",
+      "id": 3
+    },
+    {
+      "name": "Wada",
+      "price": "30",
+      "id": 4
+    },
+    {
+      "name": "Nonveg-firedrice",
+      "price": "150",
+      "id": 5
+    },
+    {
+      "name": "Dosa",
+      "price": "40",
+      "id": 6
+    },
+    {
+      "name": "masala dosa",
+      "price": "60",
+      "id": 7
+    }
+  ],
+  "charges": [
+    {
+      "order": [
+        {
+          "name": "masala dosa",
+          "price": "60",
+          "quantity": 1
+        }
+      ],
+      "disct": 4.800000000000001,
+      "id": 1
+    },
+    {
+      "order": [
+        {
+          "name": "puri",
+          "price": "60",
+          "quantity": 1
+        }
+      ],
+      "disct": 3.5999999999999996,
+      "id": 2
+    },
+    {
+      "customerName": "rdyhsddsrtht",
+      "order": [
+        {
+          "name": "puri",
+          "price": "60",
+          "quantity": 1
+        }
+      ],
+      "disct": 3.5999999999999996,
+      "id": 3
+    },
+    {
+      "customerName": "",
+      "order": [
+        {
+          "name": "masala dosa",
+          "price": "60",
+          "quantity": 1
+        }
+      ],
+      "disct": 10.2,
+      "id": 4
+    },
+    {
+      "customerName": "yamini",
+      "order": [
+        {
+          "name": "Dosa",
+          "price": "40",
+          "quantity": 1
+        }
+      ],
+      "disct": 3.9000000000000004,
+      "id": 5
+    },
+    {
+      "customerName": "",
+      "order": [
+        {
+          "name": "Wada",
+          "price": "30",
+          "quantity": null
+        }
+      ],
+      "disct": 6.6000000000000005,
+      "id": 6
+    },
+    {
+      "customerName": "",
+      "order": [
+        {
+          "name": "Dosa",
+          "price": "40",
+          "quantity": 1
+        }
+      ],
+      "disct": 1.7999999999999998,
+      "id": 7
+    },
+    {
+      "customerName": "routhu",
+      "order": [
+        {
+          "name": "Dosa",
+          "price": "40",
+          "quantity": 1
+        }
+      ],
+      "disct": 4.199999999999999,
+      "id": 8
+    },
+    {
+      "customerName": "yram",
+      "order": [
+        {
+          "name": "puri",
+          "price": "60",
+          "quantity": 1
+        }
+      ],
+      "disct": 7.5,
+      "id": 9
+    },
+    {
+      "customerName": "bharu",
+      "order": [
+        {
+          "name": "idly",
+          "price": "20",
+          "quantity": 1
+        }
+      ],
+      "disct": 3.5999999999999996,
+      "id": 10
+    },
+    {
+      "customerName": "25",
+      "order": [
+        {
+          "name": "idly",
+          "price": "20",
+          "quantity": 1
+        }
+      ],
+      "disct": 0.6000000000000001,
+      "id": 11
+    },
+    {
+      "customerName": "5",
+      "order": [
+        {
+          "name": "Nonveg-firedrice",
+          "price": "150",
+          "quantity": 1
+        }
+      ],
+      "disct": 5.1,
+      "id": 12
+    },
+    {
+      "customerName": "",
+      "order": [
+        {
+          "name": "idly",
+          "price": "20",
+          "quantity": 1
+        },
+        {
+          "name": "Nonveg-firedrice",
+          "price": "150",
+          "quantity": 1
+        },
+        {
+          "name": "Dosa",
+          "price": "40",
+          "quantity": 1
+        }
+      ],
+      "disct": 12,
+      "id": 13
+    },
+    {
+      "customerName": "dyh",
+      "order": [
+        {
+          "name": "Dosa",
+          "price": "40",
+          "quantity": 1
+        },
+        {
+          "name": "Dosa",
+          "price": "40",
+          "quantity": 1
+        }
+      ],
+      "disct": 3.5999999999999996,
+      "id": 14
+    },
+    {
+      "customerName": "dyh",
+      "order": [
+        {
+          "name": "Dosa",
+          "price": "40",
+          "quantity": 1
+        },
+        {
+          "name": "Dosa",
+          "price": "40",
+          "quantity": 1
+        }
+      ],
+      "disct": 3.5999999999999996,
+      "id": 15
+    },
+    {
+      "customerName": "r4765",
+      "order": [
+        {
+          "name": "puri",
+          "price": "60",
+          "quantity": 1
+        },
+        {
+          "name": "Dosa",
+          "price": "40",
+          "quantity": 1
+        },
+        {
+          "name": "idly",
+          "price": "20",
+          "quantity": 1
+        }
+      ],
+      "disct": 8.399999999999999,
+      "id": 16
+    },
+    {
+      "customerName": "",
+      "order": [
+        {
+          "name": "Dosa",
+          "price": "40",
+          "quantity": 1
+        },
+        {
+          "name": "puri",
+          "price": "60",
+          "quantity": 1
+        },
+        {
+          "name": "Nonveg-firedrice",
+          "price": "150",
+          "quantity": 1
+        }
+      ],
+      "disct": 11.7,
+      "id": 17
+    },
+    {
+      "customerName": "",
+      "order": [
+        {
+          "name": "idly",
+          "price": "20",
+          "quantity": 1
+        },
+        {
+          "name": "Nonveg-firedrice",
+          "price": "150",
+          "quantity": 1
+        }
+      ],
+      "disct": 5.699999999999999,
+      "id": 18
+    },
+    {
+      "customerName": "",
+      "order": [
+        {
+          "name": "Wada",
+          "price": "30",
+          "quantity": 1
+        },
+        {
+          "name": "puri",
+          "price": "60",
+          "quantity": 1
+        },
+        {
+          "name": "masala dosa",
+          "price": "60",
+          "quantity": 1
+        }
+      ],
+      "disct": 13.799999999999999,
+      "id": 19
+    },
+    {
+      "customerName": "",
+      "order": [
+        {
+          "name": "Nonveg-firedrice",
+          "price": "150",
+          "quantity": 1
+        },
+        {
+          "name": "Dosa",
+          "price": "40",
+          "quantity": 1
+        }
+      ],
+      "disct": 10.2,
+      "id": 20
+    },
+    {
+      "customerName": "",
+      "order": [
+        {
+          "name": "Dosa",
+          "price": "40",
+          "quantity": 1
+        },
+        {
+          "name": "Dosa",
+          "price": "40",
+          "quantity": 1
+        }
+      ],
+      "disct": 3.5999999999999996,
+      "id": 21
+    },
+    {
+      "customerName": "",
+      "order": [
+        {
+          "name": "idly",
+          "price": "20",
+          "quantity": 1
+        },
+        {
+          "name": "Dosa",
+          "price": "40",
+          "quantity": 1
+        },
+        {
+          "name": "puri",
+          "price": "60",
+          "quantity": 1
+        },
+        {
+          "name": "masala dosa",
+          "price": "60",
+          "quantity": 1
+        }
+      ],
+      "disct": 11.399999999999999,
+      "id": 22
+    },
+    {
+      "customerName": "hema",
+      "order": [
+        {
+          "name": "masala dosa",
+          "price": "60",
+          "quantity": 1
+        },
+        {
+          "name": "Dosa",
+          "price": "40",
+          "quantity": 1
+        },
+        {
+          "name": "Nonveg-firedrice",
+          "price": "150",
+          "quantity": 1
+        }
+      ],
+      "disct": 12.299999999999999,
+      "id": 23
+    },
+    {
+      "customerName": "harika",
+      "order": [
+        {
+          "name": "puri",
+          "price": "60",
+          "quantity": 1
+        },
+        {
+          "name": "Dosa",
+          "price": "40",
+          "quantity": 1
+        },
+        {
+          "name": "Wada",
+          "price": "30",
+          "quantity": 1
+        },
+        {
+          "name": "masala dosa",
+          "price": "60",
+          "quantity": 1
+        },
+        {
+          "name": "masala dosa",
+          "price": "60",
+          "quantity": 1
+        }
+      ],
+      "disct": 21.9,
+      "id": 24
+    },
+    {
+      "customerName": "",
+      "order": [
+        {
+          "name": "puri",
+          "price": "60",
+          "quantity": 1
+        },
+        {
+          "name": "masala dosa",
+          "price": "60",
+          "quantity": 1
+        },
+        {
+          "name": "Dosa",
+          "price": "40",
+          "quantity": 1
+        }
+      ],
+      "disct": 10.2,
+      "id": 25
+    },
+    {
+      "customerName": "",
+      "order": [
+        {
+          "name": "Dosa",
+          "price": "40",
+          "quantity": 1
+        },
+        {
+          "name": "Dosa",
+          "price": "40",
+          "quantity": 1
+        },
+        {
+          "name": "puri",
+          "price": "60",
+          "quantity": 1
+        }
+      ],
+      "disct": 7.800000000000001,
+      "id": 26
+    },
+    {
+      "customerName": "",
+      "order": [
+        {
+          "name": "Dosa",
+          "price": "40",
+          "quantity": 1
+        },
+        {
+          "name": "puri",
+          "price": "60",
+          "quantity": 1
+        }
+      ],
+      "disct": 4.199999999999999,
+      "id": 27
+    },
+    {
+      "customerName": "",
+      "order": [
+        {
+          "name": "Dosa",
+          "price": "40",
+          "quantity": 1
+        },
+        {
+          "name": "Dosa",
+          "price": "40",
+          "quantity": 1
+        },
+        {
+          "name": "puri",
+          "price": "60",
+          "quantity": 1
+        },
+        {
+          "name": "Nonveg-firedrice",
+          "price": "150",
+          "quantity": 1
+        }
+      ],
+      "disct": 16.5,
+      "id": 28
+    },
+    {
+      "customerName": "",
+      "order": [
+        {
+          "name": "idly",
+          "price": "20",
+          "quantity": 1
+        },
+        {
+          "name": "puri",
+          "price": "60",
+          "quantity": 1
+        },
+        {
+          "name": "Wada",
+          "price": "30",
+          "quantity": 1
+        }
+      ],
+      "disct": 0,
+      "id": 29
+    },
+    {
+      "customerName": "",
+      "order": [
+        {
+          "name": "Dosa",
+          "price": "40",
+          "quantity": 1
+        },
+        {
+          "name": "puri",
+          "price": "60",
+          "quantity": 1
+        },
+        {
+          "name": "Wada",
+          "price": "30",
+          "quantity": 1
+        },
+        {
+          "name": "masala dosa",
+          "price": "60",
+          "quantity": 1
+        }
+      ],
+      "disct": 0,
+      "id": 30
+    },
+    {
+      "customerName": "",
+      "order": [
+        {
+          "name": "idly",
+          "price": "20",
+          "quantity": 1
+        },
+        {
+          "name": "Dosa",
+          "price": "40",
+          "quantity": 1
+        },
+        {
+          "name": "Dosa",
+          "price": "40",
+          "quantity": 1
+        },
+        {
+          "name": "masala dosa",
+          "price": "60",
+          "quantity": 1
+        }
+      ],
+      "disct": 10.2,
+      "id": 31
+    },
+    {
+      "customerName": "",
+      "order": [
+        {
+          "name": "idly",
+          "price": "20",
+          "quantity": 1
+        },
+        {
+          "name": "Dosa",
+          "price": "40",
+          "quantity": 1
+        },
+        {
+          "name": "masala dosa",
+          "price": "60",
+          "quantity": 1
+        },
+        {
+          "name": "puri",
+          "price": "60",
+          "quantity": 1
+        },
+        {
+          "name": "Wada",
+          "price": "30",
+          "quantity": 1
+        }
+      ],
+      "disct": 17.700000000000003,
+      "id": 32
+    },
+    {
+      "customerName": "Yamini",
+      "order": [
+        {
+          "name": "masala dosa",
+          "price": "60",
+          "quantity": 1
+        }
+      ],
+      "disct": 1.7999999999999998,
+      "id": 33
+    },
+    {
+      "customerName": "",
+      "order": [
+        {
+          "name": "idly",
+          "price": "20",
+          "quantity": 1
+        },
+        {
+          "name": "Nonveg-firedrice",
+          "price": "150",
+          "quantity": 1
+        }
+      ],
+      "disct": 5.699999999999999,
+      "id": 34
+    },
+    {
+      "customerName": "",
+      "order": [
+        {
+          "name": "idly",
+          "price": "20",
+          "quantity": 1
+        },
+        {
+          "name": "Dosa",
+          "price": "40",
+          "quantity": 1
+        },
+        {
+          "name": "masala dosa",
+          "price": "60",
+          "quantity": 1
+        }
+      ],
+      "disct": 6,
+      "id": 35
+    },
+    {
+      "customerName": "ryamu",
+      "order": [
+        {
+          "name": "idly",
+          "price": "20",
+          "quantity": 1
+        },
+        {
+          "name": "Dosa",
+          "price": "40",
+          "quantity": 1
+        },
+        {
+          "name": "masala dosa",
+          "price": "60",
+          "quantity": 1
+        }
+      ],
+      "disct": 6,
+      "id": 36
+    },
+    {
+      "customerName": "yamu",
+      "order": [
+        {
+          "name": "idly",
+          "price": "20",
+          "quantity": 1
+        },
+        {
+          "name": "Dosa",
+          "price": "40",
+          "quantity": 1
+        }
+      ],
+      "billamount": {},
+      "disct": 2.4000000000000004,
+      "id": 37
+    },
+    {
+      "customerName": "yamuna",
+      "order": [
+        {
+          "name": "Dosa",
+          "price": "40",
+          "quantity": 1
+        },
+        {
+          "name": "puri",
+          "price": "60",
+          "quantity": 1
+        },
+        {
+          "name": "masala dosa",
+          "price": "60",
+          "quantity": 1
+        }
+      ],
+      "billamount": 312,
+      "disct": 9,
+      "id": 38
+    },
+    {
+      "customerName": "harika",
+      "order": [
+        {
+          "name": "Dosa",
+          "price": "40",
+          "quantity": 1
+        },
+        {
+          "name": "puri",
+          "price": "60",
+          "quantity": 1
+        },
+        {
+          "name": "Nonveg-firedrice",
+          "price": "150",
+          "quantity": 1
+        }
+      ],
+      "billamount": 405.6,
+      "disct": 11.7,
+      "id": 39
+    },
+    {
+      "customerName": "srinu",
+      "order": [
+        {
+          "name": "idly",
+          "price": "20",
+          "quantity": 1
+        },
+        {
+          "name": "Dosa",
+          "price": "40",
+          "quantity": 1
+        },
+        {
+          "name": "Dosa",
+          "price": "40",
+          "quantity": 1
+        }
+      ],
+      "billamount": 187.2,
+      "disct": 5.4,
+      "id": 40
+    },
+    {
+      "customerName": "lavanya",
+      "order": [
+        {
+          "name": "idly",
+          "price": "20",
+          "quantity": 1
+        },
+        {
+          "name": "Dosa",
+          "price": "40",
+          "quantity": 1
+        },
+        {
+          "name": "Nonveg-firedrice",
+          "price": "150",
+          "quantity": 1
+        }
+      ],
+      "billamount": 301.6,
+      "disct": 8.7,
+      "id": 41
+    },
+    {
+      "customerName": "sujitha",
+      "order": [
+        {
+          "name": "puri",
+          "price": "60",
+          "quantity": 1
+        },
+        {
+          "name": "Nonveg-firedrice",
+          "price": "150",
+          "quantity": 1
+        }
+      ],
+      "billamount": 280.8,
+      "disct": 8.100000000000001,
+      "id": 42
+    },
+    {
+      "customerName": "harika",
+      "order": [
+        {
+          "name": "Dosa",
+          "price": "40",
+          "quantity": 1
+        },
+        {
+          "name": "puri",
+          "price": "60",
+          "quantity": 1
+        },
+        {
+          "name": "masala dosa",
+          "price": "60",
+          "quantity": 1
+        }
+      ],
+      "billamount": 312,
+      "disct": 9,
+      "id": 43
+    },
+    {
+      "customerName": "",
+      "order": [
+        {
+          "name": "idly",
+          "price": "20",
+          "quantity": 1
+        },
+        {
+          "name": "Dosa",
+          "price": "40",
+          "quantity": 1
+        },
+        {
+          "name": "Nonveg-firedrice",
+          "price": "150",
+          "quantity": 1
+        },
+        {
+          "name": "Dosa",
+          "price": "40",
+          "quantity": 1
+        }
+      ],
+      "billamount": 561.6,
+      "disct": 16.200000000000003,
+      "id": 44
+    },
+    {
+      "customerName": "",
+      "order": [
+        {
+          "name": "idly",
+          "price": "20",
+          "quantity": 1
+        },
+        {
+          "name": "Nonveg-firedrice",
+          "price": "150",
+          "quantity": 1
+        },
+        {
+          "name": "Dosa",
+          "price": "40",
+          "quantity": 1
+        }
+      ],
+      "billamount": 416,
+      "disct": 12,
+      "id": 45
+    },
+    {
+      "customerName": "",
+      "order": [
+        {
+          "name": "idly",
+          "price": "20",
+          "quantity": 1
+        },
+        {
+          "name": "puri",
+          "price": "60",
+          "quantity": 1
+        },
+        {
+          "name": "Dosa",
+          "price": "40",
+          "quantity": 1
+        }
+      ],
+      "billamount": 228.8,
+      "disct": 6.6000000000000005,
+      "id": 46
+    },
+    {
+      "customerName": "harika",
+      "order": [
+        {
+          "name": "Dosa",
+          "price": "40",
+          "quantity": 1
+        },
+        {
+          "name": "masala dosa",
+          "price": "60",
+          "quantity": 1
+        },
+        {
+          "name": "Nonveg-firedrice",
+          "price": "150",
+          "quantity": 1
+        }
+      ],
+      "billamount": 405.6,
+      "disct": 11.7,
+      "id": 47
+    },
+    {
+      "customerName": "sravya",
+      "order": [
+        {
+          "name": "Dosa",
+          "price": "40",
+          "quantity": 1
+        },
+        {
+          "name": "Nonveg-firedrice",
+          "price": "150",
+          "quantity": 1
+        },
+        {
+          "name": "idly",
+          "price": "20",
+          "quantity": 1
+        }
+      ],
+      "billamount": 457.6,
+      "disct": 13.200000000000001,
+      "id": 48
+    }
+  ]
+}
