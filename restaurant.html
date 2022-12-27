@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="restaurant.css">
+        <title>Restuarant</title>
+    </head>
+    <body>
+        <div class="Maincontainer">
+<div class="Header">
+ <button class="show">Orders </button>
+ <button class="hide">current</button>
+
+</div>
+<div class="tabular">
+    <table>
+        
+        <th> id</th>
+        <th>customername</th>
+        <th>total</th>
+        <th>history</th>
+        <tbody class="tableBody"></tbody>
+    </table> 
+</div>
+<div class="mainbody">
+    <div class="leftside"></div>
+   
+ <div class="rightcontainer">
+        <div>
+            <p class="one">Table 5! Max</p>
+            <button class="two" onclick="clearli()">Clear</button>
+            </div>
+            <input type="text" class="num">
+            <div>
+                <table class="itemdata">
+                <thead>
+                    <th>ITEM</th>
+                    <th>QUANTITY</th>
+                   <th>PRICE</th>
+                </thead>
+                    <tbody class="tdata"></tbody>
+                    <tfoot>
+                        <tr>
+                            <td>
+                                discount
+                            </td>
+                            <td>
+                              
+                               <td class="damount"></td>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                tax
+                            </td>
+                            <td></td>
+                            <td class="tamount"></td>
+                        </tr>
+                    </tfoot>
+                </table>
+             
+            </div>
+            <div>
+         <button class="placeorder">placeorder<span>(F9)</span></button>
+        <button class="bill">total bill<span class="totalbill"></span><span>(F2)</span></button>
+            </div>
+        </div>
+        
+    </div>
+
+<div class="modals"></div>
+<script src="restaurant.js"></script>
+    </body>
+    
+</html>

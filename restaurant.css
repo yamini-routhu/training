@@ -1,0 +1,87 @@
+.Header
+{
+    width:900px;
+    height:30px;
+    background-color:rgb(211, 207, 207);
+    margin-top: 20px;
+}
+  
+
+.Maincontainer
+{
+    width:900px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:whitesmoke;
+}
+.leftside
+{
+   
+    width:60%;
+    
+    display:block;
+    background-color: rgb(127, 229, 255);
+    float:left;
+}
+.Items{
+    width:120px;
+    height:90px;
+    background-color:rgb(211, 207, 207);
+    border:none;
+    float:left;
+    margin-top:4px;
+    margin-left:5px;
+    
+    padding-left: 20px;
+   
+}
+/* .show
+{
+    padding: 5px;
+} */
+.one
+{
+    float:left;  
+}
+.two
+{
+    float:right;
+    color:blue;
+}
+.rightcontainer
+{
+    float:right;
+    background-color: rgb(143, 138, 131);
+    margin-top:0px;
+   width:40%;
+}
+.num
+{
+    width:300px;
+    height: 30px;
+}
+table,th{
+   
+    border-collapse: collapse;
+    width:50px;
+    padding:25px;
+
+}
+.btn{
+    background-color: rgb(31, 161, 19);
+    float:right;
+    
+}
+.placeorder{
+    background-color:rgb(49, 49, 243);
+}
+.bill{
+    background-color:green;
+}
+.tabular{
+    display:none;
+    width:100%;
+}
+.modals{
+    background-color: darkgoldenrod;
+}
