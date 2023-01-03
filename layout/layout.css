@@ -1,0 +1,54 @@
+
+    @import "../layout/bootstrap.min.css";
+    .cont{
+        
+         background-color: #FFF7F4; 
+     }
+ 
+ .contnt{
+     margin: left 10px;
+     padding-top: 100px;
+     font-weight: 700;
+     font-size: 48.38px;
+ }
+ .logo{
+      padding: 50px;
+ }
+ .color{
+    color:#FF5300;
+ }
+ .heading{
+    position: absolute;
+    top: 50px;
+    right: -164px;
+   }
+ .para{
+    font-family: "poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 161px;
+
+ }
+   .image{
+     padding:35px;
+ } 
+ .getbtn{
+     background-color: #FF5300;
+     border-radius: 5px;
+    
+ }
+
+ /* .getpara{
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 30px;
+     color: #FFFFFF;
+ }
+ .letstalk{
+     border-radius: 5px;
+ }
+ .home{
+     color: #FF5300;
+ } */
