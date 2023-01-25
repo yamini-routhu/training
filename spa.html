@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPA</title>
+</head>
+<body>
+    
+    <ul>
+        <li >
+          <a href="#home" onclick="onNavClick('/')">Home</a>
+        </li>
+        <li >
+          <a href="#about" onclick="onNavClick('/about')">About</a>
+         
+        </li>
+        <li >
+          <a href="#contact" onclick="onNavClick('/contact')">Contact</a>
+        </li>
+      </ul>
+      <div id="root"></div>
+      <script>
+      let home = '';
+let about = '';
+let contact = '';
+const loadPage = async (page) => {
+  const response = await fetch(page);
+  const resHtml = await response.text();
+  return resHtml;
+};
+const loadAllPages = async () => {
+  home = await loadPage('home.html');
+  about = await loadPage('about.html');
+  contact = await loadPage('contact.html');
+};
+const rootDiv = document.getElementById('root');
+const main = async () => {
+  await loadAllPages();
+  rootDiv.innerHTML = home;
+   routes = {
+    '/': home,
+    '/contact': contact,
+    '/about': about,
+  };
+};
+main();
+const onNavClick = (pathname) => {
+  window.history.pushState({}, pathname, window.location.origin + pathname);
+  rootDiv.innerHTML = routes[pathname];
+};
+window.onpopstate = () => {  
+  rootDiv.innerHTML = routes[window.location.pathname];
+};
+</script>
+    </body>
+  </html>
